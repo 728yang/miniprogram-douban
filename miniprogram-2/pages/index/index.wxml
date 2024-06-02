@@ -1,0 +1,25 @@
+<view class="main">
+  <view class="swp">
+  <!-- 轮播图 -->
+    <swiper class="swiper-container" indicator-dots="ture" autoplay="true" style="margin: 10px;">  
+  <swiper-item>  
+    <image src="../../images/1.jpg" class="slide-image" mode="aspectFill" />  
+  </swiper-item>  
+  
+  <swiper-item>  
+    <image src="../../images/2.jpg" class="slide-image" mode="aspectFill" />  
+  </swiper-item>  
+  
+  <swiper-item>  
+    <image src="../../images/3.jpg" class="slide-image" mode="aspectFill" />  
+  </swiper-item>  
+
+  <swiper-item>  
+    <image src="../../images/4.jpg" class="slide-image" mode="aspectFill" />  
+  </swiper-item>  
+  
+</swiper>
+
+<view>1111</view>
+  </view>
+</view>

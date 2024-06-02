@@ -1,0 +1,8 @@
+.slide-image {
+	border-radius: 10px;
+	width: 100%; /* 图片宽度占满 swiper-item */  
+	height: 50%;
+}
+.swp{
+	width: 100%;
+}

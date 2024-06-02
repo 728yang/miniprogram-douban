@@ -1,0 +1,14 @@
+今日热映
+地址：https://m.maoyan.com/ajax/movieOnInfoList GET
+
+模糊查询（无分页）
+地址：https://m.maoyan.com/ajax/search?kw=&cityId=59&stype=-1 GET
+其中kw为关键字，cityid为城市id，type未知
+
+查询电影详情
+地址：https://m.maoyan.com/ajax/detailmovie?movieId=
+主要参数是movieId
+
+查询电影评论
+地址：https://m.maoyan.com/review/v2/comments.json?movieId=&userId=-1&offset=15&limit=15&ts=
+主要参数为movieId，此接口会返回默认的热门20条数据，数据分页条件应该是以ts时间戳为准，自行测试
